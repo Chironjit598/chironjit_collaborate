@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: Column(children: [
-      Text("This is Topu")
+      Text("This is Topu", style: TextStyle(),),
     ],),);
   }
 }
